@@ -1,0 +1,186 @@
+JFDML JFormDesigner: "5.2.3.0.281" Java: "1.8.0_40-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jgoodies.forms.layout.FormLayout ) {
+			"$columnSpecs": "88dlu, labelcompgap, 85dlu, labelcompgap, 92dlu"
+			"$rowSpecs": "70dlu, linegap, 65dlu, linegap, 70dlu"
+		} ) {
+			name: "this"
+			"title": "8 Puzzle"
+			"iconImage": new com.jformdesigner.model.SwingIcon( 1, "/Users/ZanderMac/Downloads/WaterPlain0017_3_M.jpg" )
+			"$sizePolicy": 0
+			"resizable": false
+			addEvent( new FormEvent( "java.awt.event.WindowFocusListener", "windowGainedFocus", "thisWindowGainedFocus", true ) )
+			addEvent( new FormEvent( "java.awt.event.WindowListener", "windowClosing", "thisWindowClosing", true ) )
+			addEvent( new FormEvent( "java.awt.event.KeyListener", "keyTyped", "thisKeyTyped", true ) )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btn6"
+				"font": new java.awt.Font( "Chalkduster", 0, 64 )
+				"cursor": &Cursor0 new java.awt.Cursor( 12 )
+				"defaultCapable": false
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btn6ActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+				"gridX": 1
+				"hAlign": sfield com.jgoodies.forms.layout.CellConstraints FILL
+				"vAlign": sfield com.jgoodies.forms.layout.CellConstraints FILL
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btn7"
+				"font": new java.awt.Font( "Chalkduster", 0, 64 )
+				"cursor": #Cursor0
+				"defaultCapable": false
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btn7ActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+				"vAlign": sfield com.jgoodies.forms.layout.CellConstraints FILL
+				"hAlign": sfield com.jgoodies.forms.layout.CellConstraints FILL
+				"gridX": 3
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btn8"
+				"font": new java.awt.Font( "Chalkduster", 0, 64 )
+				"cursor": #Cursor0
+				"defaultCapable": false
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btn8ActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+				"gridX": 5
+				"hAlign": sfield com.jgoodies.forms.layout.CellConstraints FILL
+				"vAlign": sfield com.jgoodies.forms.layout.CellConstraints FILL
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btn3"
+				"font": new java.awt.Font( "Chalkduster", 0, 64 )
+				"cursor": #Cursor0
+				"defaultCapable": false
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btn3ActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+				"gridX": 1
+				"gridY": 3
+				"hAlign": sfield com.jgoodies.forms.layout.CellConstraints FILL
+				"vAlign": sfield com.jgoodies.forms.layout.CellConstraints FILL
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btn4"
+				"font": new java.awt.Font( "Chalkduster", 0, 64 )
+				"cursor": #Cursor0
+				"defaultCapable": false
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btn4ActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+				"gridX": 3
+				"gridY": 3
+				"hAlign": sfield com.jgoodies.forms.layout.CellConstraints FILL
+				"vAlign": sfield com.jgoodies.forms.layout.CellConstraints FILL
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btn5"
+				"font": new java.awt.Font( "Chalkduster", 0, 64 )
+				"foreground": sfield java.awt.Color black
+				"background": new java.awt.Color( 0, 204, 255, 255 )
+				"opaque": false
+				"cursor": #Cursor0
+				"defaultCapable": false
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btn5ActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+				"gridX": 5
+				"gridY": 3
+				"hAlign": sfield com.jgoodies.forms.layout.CellConstraints FILL
+				"vAlign": sfield com.jgoodies.forms.layout.CellConstraints FILL
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btn1"
+				"font": new java.awt.Font( "Chalkduster", 0, 64 )
+				"cursor": #Cursor0
+				"defaultCapable": false
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btn1ActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+				"gridX": 1
+				"gridY": 5
+				"hAlign": sfield com.jgoodies.forms.layout.CellConstraints FILL
+				"vAlign": sfield com.jgoodies.forms.layout.CellConstraints FILL
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btn2"
+				"font": new java.awt.Font( "Chalkduster", 0, 64 )
+				"cursor": #Cursor0
+				"defaultCapable": false
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btn2ActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+				"gridX": 3
+				"gridY": 5
+				"hAlign": sfield com.jgoodies.forms.layout.CellConstraints FILL
+				"vAlign": sfield com.jgoodies.forms.layout.CellConstraints FILL
+			} )
+			menuBar: new FormContainer( "javax.swing.JMenuBar", new FormLayoutManager( class javax.swing.JMenuBar ) ) {
+				name: "menuBar"
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "mnuAbout"
+					"text": "About"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "mnuAboutActionPerformed", true ) )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "mnuAboutActionPerformed", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "mnuAboutMouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "mnuAboutActionPerformed", true ) )
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "mnuFile"
+					"text": "Game"
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "mnuFile_NewRandomState"
+						"text": "New Random State"
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "menuItem4ActionPerformed", true ) )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "mnuFile_NewRandomStateActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "mnuFile_LoadGameState"
+						"text": "Load Game State"
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "menuItem1ActionPerformed", true ) )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "mnuFile_LoadGameStateActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "mnuFile_SaveGameState"
+						"text": "Save Game State"
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "mnuFile_SaveGameStateActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JSeparator" ) {
+						name: "separator1"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "mnuFile_Exit"
+						"text": "Exit"
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "mnuFile_ExitActionPerformed", true ) )
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "mnuAI"
+					"text": "AI"
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "mnuAI_AnimatedSolve"
+						"text": "Animated Solve"
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "mnuAI_AnimatedSolveActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "mnuAI_QuickSolve"
+						"text": "Quick Solve"
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "mnuAI_QuickSolveActionPerformed", true ) )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "mnuAI_QuickSolveActionPerformed", true ) )
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "mnuHelp"
+					"text": "Help"
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "mnuHelpMouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "mnuHelpMouseClicked", true ) )
+				} )
+			}
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 545, 395 )
+		} )
+		add( new FormComponent( "javax.swing.JFileChooser" ) {
+			name: "fileChooser"
+			"currentDirectory": sfield com.jformdesigner.model.FormObject NULL_VALUE
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 570, 10 )
+		} )
+	}
+}
