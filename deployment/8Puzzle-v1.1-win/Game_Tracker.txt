@@ -1,0 +1,284 @@
+Initial State:
+3 4 1 
+8 6 7 
+5 2 B 
+
+Move 1: 2 Moved right
+3 4 1 
+8 6 7 
+5 B 2 
+
+Move 2: 6 Moved down
+3 4 1 
+8 B 7 
+5 6 2 
+
+Move 3: 4 Moved down
+3 B 1 
+8 4 7 
+5 6 2 
+
+Move 4: 1 Moved left
+3 1 B 
+8 4 7 
+5 6 2 
+
+Move 5: 7 Moved up
+3 1 7 
+8 4 B 
+5 6 2 
+
+Move 6: 4 Moved right
+3 1 7 
+8 B 4 
+5 6 2 
+
+Move 7: 6 Moved up
+3 1 7 
+8 6 4 
+5 B 2 
+
+Move 8: 5 Moved right
+3 1 7 
+8 6 4 
+B 5 2 
+
+Move 9: 8 Moved down
+3 1 7 
+B 6 4 
+8 5 2 
+
+Move 10: 3 Moved down
+B 1 7 
+3 6 4 
+8 5 2 
+
+Move 11: 1 Moved left
+1 B 7 
+3 6 4 
+8 5 2 
+
+Move 12: 6 Moved up
+1 6 7 
+3 B 4 
+8 5 2 
+
+Move 13: 3 Moved right
+1 6 7 
+B 3 4 
+8 5 2 
+
+Move 14: 8 Moved up
+1 6 7 
+8 3 4 
+B 5 2 
+
+Move 15: 5 Moved left
+1 6 7 
+8 3 4 
+5 B 2 
+
+Move 16: 3 Moved down
+1 6 7 
+8 B 4 
+5 3 2 
+
+Move 17: 6 Moved down
+1 B 7 
+8 6 4 
+5 3 2 
+
+Move 18: 7 Moved left
+1 7 B 
+8 6 4 
+5 3 2 
+
+Move 19: 4 Moved up
+1 7 4 
+8 6 B 
+5 3 2 
+
+Move 20: 2 Moved up
+1 7 4 
+8 6 2 
+5 3 B 
+
+Move 21: 3 Moved right
+1 7 4 
+8 6 2 
+5 B 3 
+
+Move 22: 6 Moved down
+1 7 4 
+8 B 2 
+5 6 3 
+
+Move 23: 2 Moved left
+1 7 4 
+8 2 B 
+5 6 3 
+
+Move 24: 3 Moved up
+1 7 4 
+8 2 3 
+5 6 B 
+
+Move 25: 6 Moved right
+1 7 4 
+8 2 3 
+5 B 6 
+
+Move 26: 2 Moved down
+1 7 4 
+8 B 3 
+5 2 6 
+
+Move 27: 3 Moved left
+1 7 4 
+8 3 B 
+5 2 6 
+
+Move 28: 4 Moved down
+1 7 B 
+8 3 4 
+5 2 6 
+
+Move 29: 7 Moved right
+1 B 7 
+8 3 4 
+5 2 6 
+
+Move 30: 3 Moved up
+1 3 7 
+8 B 4 
+5 2 6 
+
+Move 31: 2 Moved up
+1 3 7 
+8 2 4 
+5 B 6 
+
+Move 32: 6 Moved left
+1 3 7 
+8 2 4 
+5 6 B 
+
+Move 33: 4 Moved down
+1 3 7 
+8 2 B 
+5 6 4 
+
+Move 34: 7 Moved down
+1 3 B 
+8 2 7 
+5 6 4 
+
+Move 35: 3 Moved right
+1 B 3 
+8 2 7 
+5 6 4 
+
+Move 36: 2 Moved up
+1 2 3 
+8 B 7 
+5 6 4 
+
+Move 37: 7 Moved left
+1 2 3 
+8 7 B 
+5 6 4 
+
+Move 38: 4 Moved up
+1 2 3 
+8 7 4 
+5 6 B 
+
+Move 39: 6 Moved right
+1 2 3 
+8 7 4 
+5 B 6 
+
+Move 40: 7 Moved down
+1 2 3 
+8 B 4 
+5 7 6 
+
+Move 41: 8 Moved right
+1 2 3 
+B 8 4 
+5 7 6 
+
+Move 42: 5 Moved up
+1 2 3 
+5 8 4 
+B 7 6 
+
+Move 43: 7 Moved left
+1 2 3 
+5 8 4 
+7 B 6 
+
+Move 44: 6 Moved left
+1 2 3 
+5 8 4 
+7 6 B 
+
+Move 45: 4 Moved down
+1 2 3 
+5 8 B 
+7 6 4 
+
+Move 46: 8 Moved right
+1 2 3 
+5 B 8 
+7 6 4 
+
+Move 47: 5 Moved right
+1 2 3 
+B 5 8 
+7 6 4 
+
+Move 48: 7 Moved up
+1 2 3 
+7 5 8 
+B 6 4 
+
+Move 49: 6 Moved left
+1 2 3 
+7 5 8 
+6 B 4 
+
+Move 50: 5 Moved down
+1 2 3 
+7 B 8 
+6 5 4 
+
+Move 51: 8 Moved left
+1 2 3 
+7 8 B 
+6 5 4 
+
+Move 52: 4 Moved up
+1 2 3 
+7 8 4 
+6 5 B 
+
+Move 53: 5 Moved right
+1 2 3 
+7 8 4 
+6 B 5 
+
+Move 54: 6 Moved right
+1 2 3 
+7 8 4 
+B 6 5 
+
+Move 55: 7 Moved down
+1 2 3 
+B 8 4 
+7 6 5 
+
+Move 56: 8 Moved left
+1 2 3 
+8 B 4 
+7 6 5 
